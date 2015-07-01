@@ -1,3 +1,9 @@
+/* Joseph Topasna
+ * Instr: Mike Freeman
+ * INFO 343
+ * Layout-Challenge
+ * 01 July 15 */
+
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 
@@ -128,7 +134,6 @@ li {
 #menu {
   padding: 1em;
   background-color: rgba(207,205,140,0.5);
-  background: cover;
 }
 
 dt {
