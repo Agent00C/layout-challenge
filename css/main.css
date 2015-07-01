@@ -7,48 +7,48 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:300);
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 
-/* Screens smaller than 992px */
+/* Formatting for screens smaller than 992px */
 @media screen and (max-width: 992px) {
     body {
-        background-image: none !important;
-        font-size: 16px !important;
+        background-image:none !important;
+        font-size:16px !important;
     }
     
     main {
-       margin: 0px !important;
+       margin:0px !important;
     }
      
     #tag {
-        display: none !important;
+        display:none !important;
      }
     
     #list {
-        margin: 0px !important;
-  		padding: 0px !important;
-  		float: left !important;
+        margin:0px !important;
+  		padding:0px !important;
+  		float:left !important;
     } 
     
     .container-fluid {
-    	margin-top: 0px !important;
-    	margin-bottom: 0px !important;
+    	margin-top:0px !important;
+    	margin-bottom:0px !important;
     }
 }
 
-/* Screens wider than or equal to 992px */
+/* Formatting for screens wider than or equal to 992px */
 /* Body */
 body{
 	background-image: url("../img/background.jpg");
-	font-family: 'Lato';
-	font-size: 18px;
-	font-weight: 300;
-	background-size: cover; 
+	font-family:'Lato';
+	font-size:18px;
+	font-weight:300;
+	background-size:cover; 
 	background-attachment:fixed;
 }
 
 /* HyperLinks */
 a {
   text-decoration: none;
-  color: #0000AA;
+  color:#0000AA;
 }
 
 a:hover {
@@ -59,6 +59,7 @@ input:focus {
   color:#0000EE;
 }
 
+/* Navigation Bar Hyperlinks */
 .nav {
   color:#55E;	
 }
@@ -76,12 +77,12 @@ input:focus {
 h1 {
   font-size:300%;
   color:#FFFFFF;
-  margin: 0px;
+  margin:0px;
 }
 
 h2 {
   font-size:150%;
-  margin: 0px;
+  margin:0px;
 
 }
 
@@ -92,32 +93,32 @@ h2, h3 {
 /* Main Page Content */
 main {
   background-image:url("../img/ricepaper_v3.png");
-  background-size: cover;
+  background-size:cover;
   margin-left:30%;
   margin-top:20px;
   margin-bottom:20px;
   margin-right:20px;
-  opacity: 0.9;
+  opacity:0.9;
  
 }
 
 /* Page Header */
 #page-header {
-  padding: 1em;
+  padding:1em;
   background-color:#FA5A0F;
   border-bottom:5px solid #EA4A00;
-  color: #EEEEEE;
+  color:#EEEEEE;
   margin:0px;
 }
 
 #navbar {
-  top: 10px;
-  right: 10px;
+  top:10px;
+  right:10px;
 } 
  
 #list {
-  list-style-type: none;
-  text-align: right;
+  list-style-type:none;
+  text-align:right;
 }
 
 li {
@@ -127,13 +128,13 @@ li {
 
 /* General Info */
 #general-info {
-  padding: 1em;
+  padding:1em;
 }
 
 /* Menu */
 #menu {
   padding: 1em;
-  background-color: rgba(207,205,140,0.5);
+  background-color:rgba(207,205,140,0.5);
 }
 
 dt {
